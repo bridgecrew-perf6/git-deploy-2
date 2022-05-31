@@ -17,8 +17,8 @@
 
 - Add a remote <br>
  $git remote add [remote_name] [remote_url]<br>
- $git remote add origin https://github.com/evansmbithi/git-deploy.git
+ $git remote add second https://github.com/evansmbithi/git-deploy.git
 
 - Push to remote repository on the specific branch <br>
  $git push [remote_name] [branch_name] <br>
- $git push origin Maestro
+ $git push second Maestro
