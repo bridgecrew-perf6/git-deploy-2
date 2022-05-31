@@ -1,24 +1,24 @@
 # git-deploy
 
-- Include a README file
+- Include a README file <br>
  $echo "git-deploy" >> README.md
 
-- Initialize git
+- Initialize git <br>
  $git init
 
-- Add files 
+- Add files <br>
  $git add -A
 
-- Commit to repo
+- Commit to repo <br>
  $git commit -a -m "first commit"
 
-- Shift to the desired branch
+- Shift to the desired branch <br>
  $git branch -M Maestro
 
-- Add a remote 
- $git remote add [remote_name] [remote_url]
+- Add a remote <br>
+ $git remote add [remote_name] [remote_url]<br>
  $git remote add origin https://github.com/evansmbithi/git-deploy.git
 
-- Push to remote repository on the specific branch
- $git push [remote_name] [branch_name]
+- Push to remote repository on the specific branch <br>
+ $git push [remote_name] [branch_name] <br>
  $git push origin Maestro
